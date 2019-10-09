@@ -1,7 +1,7 @@
 ## Sample Input
 
 ```
-import djikstra from 'djikstra';
+import dijkstra from 'dijkstra';
 
 const graph = {
   a: [{ b: 7 }, { c: 3 }],
@@ -11,7 +11,7 @@ const graph = {
   e: [{ d: 4 }, { e: 6 }]
 };
 
-const distancesFromA = djikstra(graph, 'a');
+const distancesFromA = dijkstra(graph, 'a');
 
 // { a: 0, b: 4, c: 3, d: 5, e: 9 }
 ```
